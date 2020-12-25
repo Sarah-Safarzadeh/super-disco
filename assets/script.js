@@ -1,12 +1,17 @@
 $(document).ready(function () {
 
-    const init = false;
-    const now = moment().format('LLLL'); // Day, M/D/Y/T format
+    var init = false;
+    var now = moment().format('LLLL'); // Day, M/D/Y/T format
 
-    const now24 = moment().format('H'); // 12 hour clock format
+    let now24 = moment().format('H'); // 12 hour clock format
+    let now12 = moment().format('h'); // 24 hour clock format
+    if (init) {
+        now24 = 13;
+        now12 = 1;
+    }
 
     // Display current date
-    const currentDate = $('#currentDate');
+    const currentDate = $('#currentDay');
     currentDate.text(now);
 
     var cal = new Date(); // init date and time
@@ -50,24 +55,24 @@ $(document).ready(function () {
      }
 
      // Display saved tasks
-     const task8 = localStorage.getItem('task8');
-     document.getElementById('8').value = task8;
-     const task9 = localStorage.getItem('task9');
-     document.getElementById('9').value = task9;
-     const task10 = localStorage.getItem('task10');
-     document.getElementById('10').value = task10;
-     const task11 = localStorage.getItem('task11');
-     document.getElementById('11').value = task11;
-     const task12 = localStorage.getItem('task12');
-     document.getElementById('12').value = task12;
-     const task1 = localStorage.getItem('task1');
-     document.getElementById('1').value = task1;
-     const task2 = localStorage.getItem('task2');
-     document.getElementById('2').value = task2;
-     const task3 = localStorage.getItem('task3');
-     document.getElementById('3').value = task3;
-     const task4 = localStorage.getItem('task4');
-     document.getElementById('4').value = task4;
-     const task5 = localStorage.getItem('task5');
-     document.getElementById('5').value = task5;
-})
+     const saved8 = localStorage.getItem('task8');
+     document.getElementById('8').value = saved8;
+     const saved9 = localStorage.getItem('task9');
+     document.getElementById('9').value = saved9;
+     const saved10 = localStorage.getItem('task10');
+     document.getElementById('10').value = saved10;
+     const saved11 = localStorage.getItem('task11');
+     document.getElementById('11').value = saved11;
+     const saved12 = localStorage.getItem('task12');
+     document.getElementById('12').value = saved12;
+     const saved1 = localStorage.getItem('task1');
+     document.getElementById('1').value = saved1;
+     const saved2 = localStorage.getItem('task2');
+     document.getElementById('2').value = saved2;
+     const saved3 = localStorage.getItem('task3');
+     document.getElementById('3').value = saved3;
+     const saved4 = localStorage.getItem('task4');
+     document.getElementById('4').value = saved4;
+     const saved5 = localStorage.getItem('task5');
+     document.getElementById('5').value = saved5;
+});
