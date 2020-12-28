@@ -15,7 +15,7 @@ $(document).ready(function () {
     currentDate.text(now);
 
     var cal = new Date(); // init date and time
-    var currentHour = cal.getHours(); // 24 hour clock
+    var currentHour = cal.getHours(); // returns 0-23 on a 24 hour clock
 
     for (var i = 8; i < 18; i++) {
         if (i < currentHour) {
@@ -27,52 +27,51 @@ $(document).ready(function () {
         }
     }
     // Local Storage Feature
-     var storage = i.toString(currentHour);
 
      {
-        $('.saveBtn').click(function() {
+        $('.saveBtn').click(function () {
             var hr8 = document.getElementById('8').value;
-			localStorage.setItem('task8', hr8);
+			localStorage.setItem('text8', hr8);
 			var hr9 = document.getElementById('9').value;
-			localStorage.setItem('task9', hr9);
+			localStorage.setItem('text9', hr9);
 			var hr10 = document.getElementById('10').value;
-			localStorage.setItem('task10', hr10);
+			localStorage.setItem('text10', hr10);
 			var hr11 = document.getElementById('11').value;
-			localStorage.setItem('task11', hr11);
+			localStorage.setItem('text11', hr11);
 			var hr12 = document.getElementById('12').value;
-			localStorage.setItem('task12', hr12);
-			var hr1 = document.getElementById('1').value;
-			localStorage.setItem('task1', hr1);
-			var hr2 = document.getElementById('2').value;
-			localStorage.setItem('task2', hr2);
-			var hr3 = document.getElementById('3').value;
-			localStorage.setItem('task3', hr3);
-			var hr4 = document.getElementById('4').value;
-			localStorage.setItem('task4', hr4);
-			var hr5 = document.getElementById('5').value;
-			localStorage.setItem('task5', hr5);
+			localStorage.setItem('text12', hr12);
+			var hr13 = document.getElementById('13').value;
+			localStorage.setItem('text13', hr13);
+			var hr14 = document.getElementById('14').value;
+			localStorage.setItem('text14', hr14);
+			var hr15 = document.getElementById('15').value;
+			localStorage.setItem('text15', hr15);
+			var hr16 = document.getElementById('16').value;
+			localStorage.setItem('text16', hr16);
+			var hr17 = document.getElementById('17').value;
+			localStorage.setItem('text17', hr17);
         });
      }
 
      // Display saved tasks
-     const saved8 = localStorage.getItem('task8');
+     var saved8 = localStorage.getItem('text8');
      document.getElementById('8').value = saved8;
-     const saved9 = localStorage.getItem('task9');
+     var saved9 = localStorage.getItem('text9');
      document.getElementById('9').value = saved9;
-     const saved10 = localStorage.getItem('task10');
+     var saved10 = localStorage.getItem('text10');
      document.getElementById('10').value = saved10;
-     const saved11 = localStorage.getItem('task11');
+     var saved11 = localStorage.getItem('text11');
      document.getElementById('11').value = saved11;
-     const saved12 = localStorage.getItem('task12');
+     var saved12 = localStorage.getItem('text12');
      document.getElementById('12').value = saved12;
-     const saved1 = localStorage.getItem('task1');
-     document.getElementById('1').value = saved1;
-     const saved2 = localStorage.getItem('task2');
-     document.getElementById('2').value = saved2;
-     const saved3 = localStorage.getItem('task3');
-     document.getElementById('3').value = saved3;
-     const saved4 = localStorage.getItem('task4');
-     document.getElementById('4').value = saved4;
-     const saved5 = localStorage.getItem('task5');
-     document.getElementById('5').value = saved5;
+     var saved13 = localStorage.getItem('text13');
+     document.getElementById('13').value = saved13;
+     var saved14 = localStorage.getItem('text14');
+     document.getElementById('14').value = saved14;
+     var saved15 = localStorage.getItem('text15');
+     document.getElementById('15').value = saved15;
+     var saved16 = localStorage.getItem('text16');
+     document.getElementById('16').value = saved16;
+     var saved17 = localStorage.getItem('text17');
+     document.getElementById('17').value = saved17;
 });
