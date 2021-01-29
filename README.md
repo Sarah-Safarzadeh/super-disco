@@ -10,6 +10,7 @@ Create a simple calendar application that allows a user to save events for each 
 * [Acceptance Criteria](#acceptance-criteria)
 * [Grading Requirements](#grading-requirments)
 * [Technology](#technology-implemented)
+* [Deployed App](#deployed-app)
 
 ## User Story
 * AS AN employee with a busy schedule
@@ -68,3 +69,6 @@ Create a simple calendar application that allows a user to save events for each 
 * CSS
 * JQuery
 * JavaScript
+
+## Deployed App
+[GitHub Repo](https://sarah-safarzadeh.github.io/work-day-scheduler/)
