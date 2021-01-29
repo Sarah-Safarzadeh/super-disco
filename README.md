@@ -4,7 +4,7 @@
 ## Assignment Objective:
 Create a simple calendar application that allows a user to save events for each hour of the day.
 
-![screenshot]('/assets/images/screenshot.png')
+![screenshot](/assets/images/screenshot.png)
 
 # Table of Contants
 * [Assignment Objective](#assignment-objective)
