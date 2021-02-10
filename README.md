@@ -1,14 +1,11 @@
 # Work Day Scheduler
-
-## Assignment Objective:
-Create a simple calendar application that allows a user to save events for each hour of the day.
+A simple calendar application that allows a user to save events for each hour of the day.
 
 ![screenshot](/assets/images/screenshot.png)
 
 # Table of Contants
 * [Assignment Objective](#assignment-objective)
 * [User Story](#user-story)
-* [Acceptance Criteria](#acceptance-criteria)
 * [Grading Requirements](#grading-requirments)
 * [Technology](#technology-implemented)
 * [Deployed App](#deployed-app)
@@ -17,8 +14,7 @@ Create a simple calendar application that allows a user to save events for each 
 * AS AN employee with a busy schedule
 * I WANT to add important events to a daily planner
 * SO THAT I can manage my time effectively
-
-## Acceptance Criteria
+---
 * GIVEN I am using a daily planner to create a schedule
 * WHEN I open the planner
 * THEN the current day is displayed at the top of the calendar
