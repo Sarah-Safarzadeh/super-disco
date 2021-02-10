@@ -25,6 +25,12 @@ textarea{
   white-space: pre-wrap;
 }
 
+.display {
+  font-family: 'Cardo', Garamond, 'Times New Roman', serif;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
 .time-block{
   text-align: center;
   border-radius: 15px;
@@ -56,7 +62,7 @@ textarea{
 }
 
 .future {
-  background-color: #275244;
+  background-color: #FDF8F5;
   color: white;
 }
 
