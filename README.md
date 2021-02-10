@@ -1,7 +1,5 @@
-# Work Day Scheduler
+# [Work Day Scheduler](https://sarah-safarzadeh.github.io/work-day-scheduler/)
 A simple calendar application that allows a user to save events for each hour of the day.
-\
-[GitHub Page](https://sarah-safarzadeh.github.io/work-day-scheduler/)
 
 ![screenshot](/assets/images/screenshot.png)
 
