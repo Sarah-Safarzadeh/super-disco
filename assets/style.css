@@ -54,16 +54,19 @@ textarea{
   background-color: #d3d3d3;
   color: #275244;
   font-style: italic;
+  text-transform: capitalize;
 }
 
 .present {
   background-color: #FF7A63;
   color: white;
+  text-transform: uppercase;
 }
 
 .future {
   background-color: #FDF8F5;
-  color: white;
+  color: rgb(110, 78, 78);
+  text-transform: capitalize;
 }
 
 .saveBtn {
