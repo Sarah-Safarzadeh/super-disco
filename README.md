@@ -1,14 +1,15 @@
 # Work Day Scheduler
 A simple calendar application that allows a user to save events for each hour of the day.
+\
+[GitHub Page](https://sarah-safarzadeh.github.io/work-day-scheduler/)
 
 ![screenshot](/assets/images/screenshot.png)
 
 # Table of Contants
-* [Assignment Objective](#assignment-objective)
+\
 * [User Story](#user-story)
 * [Grading Requirements](#grading-requirments)
-* [Technology](#technology-implemented)
-* [Deployed App](#deployed-app)
+* [Technologies](#technologies)
 
 ## User Story
 ---
@@ -31,11 +32,8 @@ THEN the text for that event is saved in local storage\
 WHEN I refresh the page\
 THEN the saved events persist\
 
-## Technology Implemented
+## Technologies
 * HTML
 * CSS
 * JQuery
 * JavaScript
-
-## Deployed App
-[GitHub Page](https://sarah-safarzadeh.github.io/work-day-scheduler/)
