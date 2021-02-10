@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Work Sans', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -37,23 +37,24 @@ textarea{
 }
 
 .hour {
-  background-color: #ffffff;
-  color: #000000;
-  border-top: 1px dashed #000000;
+  background-color: #FF7A63;
+  color: #275244;
+  border-top: 1px dashed #275244;
 }
 
 .past {
   background-color: #d3d3d3;
-  color: white;
+  color: #275244;
+  font-style: italic;
 }
 
 .present {
-  background-color: #ff6961;
+  background-color: #FF7A63;
   color: white;
 }
 
 .future {
-  background-color: #77dd77;
+  background-color: #275244;
   color: white;
 }
 
@@ -61,7 +62,7 @@ textarea{
   border-left: 1px solid black;
   border-top-right-radius: 15px;
   border-bottom-right-radius: 15px;
-  background-color: #06AED5;
+  background-color: #275244;
   color: white;
 }
 
