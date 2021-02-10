@@ -1,5 +1,4 @@
 # Work Day Scheduler
-### The Coding Bootcamp at UT - Assignment 05 - Third Party APIs Challenge!
 
 ## Assignment Objective:
 Create a simple calendar application that allows a user to save events for each hour of the day.
@@ -34,38 +33,6 @@ Create a simple calendar application that allows a user to save events for each 
 * WHEN I refresh the page
 * THEN the saved events persist
 
-## Grading Requirements
-
-### Technical Acceptance Criteria: 40%
-* Uses the Moment.js library to work with date and time
-
-### Deployment: 32%
-* Application deployed at live URL
-
-* Application loads with no errors
-
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
 ## Technology Implemented
 * HTML
 * CSS
@@ -73,4 +40,4 @@ Create a simple calendar application that allows a user to save events for each 
 * JavaScript
 
 ## Deployed App
-[GitHub Repo](https://sarah-safarzadeh.github.io/work-day-scheduler/)
+[GitHub Page](https://sarah-safarzadeh.github.io/work-day-scheduler/)
